@@ -16,7 +16,7 @@
     "name": "redhat",
     "description": "Include the set of policy rules required for Red Hat products.",
     "include": ["@redhat"],
-    "exclude": ["step_image_registries"]
+    "exclude": []
   },
   {
     "name": "slsa1",
