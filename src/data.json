@@ -9,7 +9,8 @@
     "name": "minimal",
     "description": "Include a minimal set of basic checks.",
     "include": ["@minimal"],
-    "exclude": []
+    "exclude": [],
+    "deprecated": true
   },
   {
     "name": "redhat",

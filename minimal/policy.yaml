@@ -1,4 +1,6 @@
 #
+# ** DEPRECATED **
+#
 # To use this policy with the ec command line:
 #   ec validate image \
 #     --image $IMAGE \
