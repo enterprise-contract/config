@@ -9,13 +9,14 @@
     "name": "minimal",
     "description": "Include a minimal set of basic checks.",
     "include": ["@minimal"],
-    "exclude": []
+    "exclude": [],
+    "deprecated": true
   },
   {
     "name": "redhat",
     "description": "Include the set of policy rules required for Red Hat products.",
     "include": ["@redhat"],
-    "exclude": ["step_image_registries"]
+    "exclude": []
   },
   {
     "name": "slsa1",

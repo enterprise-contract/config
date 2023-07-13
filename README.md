@@ -20,14 +20,6 @@ Includes rules for levels 1, 2 & 3 of SLSA v0.1.
     * Github URL: `https://github.com/redhat-appstudio/build-definitions.git`
     * Path in repository: [`pipelines/enterprise-contract.yaml`](https://github.com/redhat-appstudio/build-definitions/blob/main/pipelines/enterprise-contract.yaml)
 
-### Minimal
-
-Include a minimal set of basic checks.
-
-* URL for Enterprise Contract: `github.com/enterprise-contract/config//minimal`
-* Source: [minimal/policy.yaml](https://github.com/enterprise-contract/config/blob/main/minimal/policy.yaml)
-
-
 ### Redhat
 
 Include the set of policy rules required for Red Hat products.

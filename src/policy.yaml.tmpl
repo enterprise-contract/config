@@ -1,5 +1,9 @@
 {{- $name := .Env.NAME -}}{{- range ds "data" -}}{{- if eq .name $name -}}
 #
+{{ if index . "deprecated" -}}
+# ** DEPRECATED **
+#
+{{ end -}}
 # To use this policy with the ec command line:
 #   ec validate image \
 #     --image $IMAGE \

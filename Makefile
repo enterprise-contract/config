@@ -14,13 +14,7 @@ endif
 	@mkdir -p $(*)
 	@env NAME=$(*) $(GOMPLATE) -d data=$(DATA_JSON) --file $< > $@
 
-POLICY_FILES=\
-  default/policy.yaml \
-  minimal/policy.yaml \
-  slsa1/policy.yaml \
-  slsa2/policy.yaml \
-  slsa3/policy.yaml \
-  everything/policy.yaml
+POLICY_FILES=$(shell jq -r '"\(.[].name)/policy.yaml"' src/data.json)
 
 README_TEMPLATE=src/README.md.tmpl
 README_FILE=README.md

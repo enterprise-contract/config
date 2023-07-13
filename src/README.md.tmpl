@@ -10,6 +10,7 @@ here](https://redhat-appstudio.github.io/docs.appstudio.io/Documentation/main/ho
 
 The policy configuration files are:
 {{- range ds "data" }}
+{{- if not (index . "deprecated") }}
 
 ### {{ .name | strings.Title | regexp.Replace "Slsa" "SLSA" }}
 
@@ -17,7 +18,6 @@ The policy configuration files are:
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//{{ .name }}`
 * Source: [{{ .name }}/policy.yaml](https://github.com/enterprise-contract/config/blob/main/{{ .name }}/policy.yaml)
-{{ if ne .name "minimal" -}}
 * RHTAP Integration Test pipeline definition:
     * Github URL: `https://github.com/redhat-appstudio/build-definitions.git`
     * Path in repository: [`pipelines/enterprise-contract{{ if ne .name "default" }}-{{ .name }}{{ end }}.yaml`](https://github.com/redhat-appstudio/build-definitions/blob/main/pipelines/enterprise-contract{{ if ne .name "default" }}-{{ .name }}{{ end }}.yaml)
