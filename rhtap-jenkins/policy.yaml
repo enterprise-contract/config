@@ -14,8 +14,8 @@ description: >-
 sources:
   - name: Default
     policy:
-      - github.com/enterprise-contract/ec-policies//policy/lib?ref=release-v0.5
-      - github.com/enterprise-contract/ec-policies//policy/release?ref=release-v0.5
+      - github.com/conforma/policy//policy/lib?ref=release-v0.5
+      - github.com/conforma/policy//policy/release?ref=release-v0.5
     data: []
     config:
       include:

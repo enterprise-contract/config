@@ -18,7 +18,7 @@
 # the param value instead of the GitHub URL.
 #
 # See also:
-# - https://enterprisecontract.dev/docs/ec-policies/release_policy.html#_available_rule_collections
+# - https://enterprisecontract.dev/docs/policy/release_policy.html#_available_rule_collections
 # - https://enterprisecontract.dev/docs/ec-cli/main/configuration.html
 #
 name: Red Hat
@@ -29,8 +29,8 @@ description: >-
 sources:
   - name: Default
     policy:
-      - github.com/enterprise-contract/ec-policies//policy/lib
-      - github.com/enterprise-contract/ec-policies//policy/release
+      - github.com/conforma/policy//policy/lib
+      - github.com/conforma/policy//policy/release
     data:
       - github.com/release-engineering/rhtap-ec-policy//data
       - oci::quay.io/konflux-ci/tekton-catalog/data-acceptable-bundles:latest

@@ -8,7 +8,7 @@
 * Collections:{{ $comma := false }}{{ range .include -}}
   {{- if strings.HasPrefix "@" . -}}
     {{- if not $comma }}{{ $comma = true }} {{ else }}, {{ end -}}
-    [{{ . }}](https://enterprisecontract.dev/docs/ec-policies/release_policy.html#{{ strings.TrimPrefix "@" . }})
+    [{{ . }}](https://enterprisecontract.dev/docs/policy/release_policy.html#{{ strings.TrimPrefix "@" . }})
   {{- end -}}
 {{- end }}
 {{- end }}
