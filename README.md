@@ -19,7 +19,7 @@ Includes rules for levels 1, 2 & 3 of SLSA v0.1. This is the default config used
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//default`
 * Source: [default/policy.yaml](https://github.com/enterprise-contract/config/blob/main/default/policy.yaml)
-* Collections: [@slsa3](https://enterprisecontract.dev/docs/policy/release_policy.html#slsa3)
+* Collections: [@slsa3](https://conforma.dev/docs/policy/release_policy.html#slsa3)
 
 ### Red Hat
 
@@ -27,7 +27,7 @@ Includes the full set of rules and policies required internally by Red Hat when 
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//redhat`
 * Source: [redhat/policy.yaml](https://github.com/enterprise-contract/config/blob/main/redhat/policy.yaml)
-* Collections: [@redhat](https://enterprisecontract.dev/docs/policy/release_policy.html#redhat)
+* Collections: [@redhat](https://conforma.dev/docs/policy/release_policy.html#redhat)
 
 ### Red Hat (non hermetic)
 
@@ -35,7 +35,7 @@ Includes most of the rules and policies required internally by Red Hat when buil
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//redhat-no-hermetic`
 * Source: [redhat-no-hermetic/policy.yaml](https://github.com/enterprise-contract/config/blob/main/redhat-no-hermetic/policy.yaml)
-* Collections: [@redhat](https://enterprisecontract.dev/docs/policy/release_policy.html#redhat)
+* Collections: [@redhat](https://conforma.dev/docs/policy/release_policy.html#redhat)
 
 ### Red Hat RPMs
 
@@ -43,7 +43,7 @@ For Red Hat RPM builds in Red Hat Konflux.
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//redhat-rpms`
 * Source: [redhat-rpms/policy.yaml](https://github.com/enterprise-contract/config/blob/main/redhat-rpms/policy.yaml)
-* Collections: [@redhat_rpms](https://enterprisecontract.dev/docs/policy/release_policy.html#redhat_rpms)
+* Collections: [@redhat_rpms](https://conforma.dev/docs/policy/release_policy.html#redhat_rpms)
 
 ### SLSA3
 
@@ -51,7 +51,7 @@ Rules specifically related to levels 1, 2 & 3 of SLSA v0.1, plus a set of basic 
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//slsa3`
 * Source: [slsa3/policy.yaml](https://github.com/enterprise-contract/config/blob/main/slsa3/policy.yaml)
-* Collections: [@minimal](https://enterprisecontract.dev/docs/policy/release_policy.html#minimal), [@slsa3](https://enterprisecontract.dev/docs/policy/release_policy.html#slsa3)
+* Collections: [@minimal](https://conforma.dev/docs/policy/release_policy.html#minimal), [@slsa3](https://conforma.dev/docs/policy/release_policy.html#slsa3)
 
 
 ## Stable (versioned policies)
@@ -75,7 +75,7 @@ Includes rules for levels 1, 2 & 3 of SLSA v0.1. For use with ec version v0.4
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//default-v0.4`
 * Source: [default-v0.4/policy.yaml](https://github.com/enterprise-contract/config/blob/main/default-v0.4/policy.yaml)
-* Collections: [@slsa3](https://enterprisecontract.dev/docs/policy/release_policy.html#slsa3)
+* Collections: [@slsa3](https://conforma.dev/docs/policy/release_policy.html#slsa3)
 
 ### RHTAP
 
@@ -83,7 +83,7 @@ Includes rules suitable for use with the attestations created by RHTAP.
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//rhtap-v0.6`
 * Source: [rhtap-v0.6/policy.yaml](https://github.com/enterprise-contract/config/blob/main/rhtap-v0.6/policy.yaml)
-* Collections: [@rhtap-multi-ci](https://enterprisecontract.dev/docs/policy/release_policy.html#rhtap-multi-ci)
+* Collections: [@rhtap-multi-ci](https://conforma.dev/docs/policy/release_policy.html#rhtap-multi-ci)
 
 ### Tekton SLSA3 (v0.6)
 
@@ -91,7 +91,7 @@ Includes rules for levels 1, 2 & 3 of SLSA v0.1. For use with ec version v0.6
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//tekton-slsa3-v0.6`
 * Source: [tekton-slsa3-v0.6/policy.yaml](https://github.com/enterprise-contract/config/blob/main/tekton-slsa3-v0.6/policy.yaml)
-* Collections: [@slsa3](https://enterprisecontract.dev/docs/policy/release_policy.html#slsa3)
+* Collections: [@slsa3](https://conforma.dev/docs/policy/release_policy.html#slsa3)
 
 
 ## Konflux CI & Red Hat Trusted Application Pipeline (RHTAP) - Tasks
@@ -120,9 +120,9 @@ Rules for container images built via GitHub Workflows.
 
 * URL for Enterprise Contract: `github.com/enterprise-contract/config//github-default`
 * Source: [github-default/policy.yaml](https://github.com/enterprise-contract/config/blob/main/github-default/policy.yaml)
-* Collections: [@github](https://enterprisecontract.dev/docs/policy/release_policy.html#github)
+* Collections: [@github](https://conforma.dev/docs/policy/release_policy.html#github)
 
 ## See also
 
-* [Policy Rule Documentation](https://enterprisecontract.dev/docs/policy/release_policy.html)
-* [Getting Started with Enterprise Contract &amp; Konflux CI](https://enterprisecontract.dev/docs/user-guide/getting-started.html)
+* [Policy Rule Documentation](https://conforma.dev/docs/policy/release_policy.html)
+* [Getting Started with Enterprise Contract &amp; Konflux CI](https://conforma.dev/docs/user-guide/getting-started.html)

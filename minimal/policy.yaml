@@ -20,8 +20,8 @@
 # the param value instead of the GitHub URL.
 #
 # See also:
-# - https://enterprisecontract.dev/docs/policy/release_policy.html#_available_rule_collections
-# - https://enterprisecontract.dev/docs/ec-cli/main/configuration.html
+# - https://conforma.dev/docs/policy/release_policy.html#_available_rule_collections
+# - https://conforma.dev/docs/ecc/
 #
 name: Minimal (deprecated)
 description: >-
