@@ -1,7 +1,7 @@
 # Enterprise Contract Configuration Files
 
 This repo contains a set of `policy.yaml` files which can be used by the [Enterprise Contract
-Command Line Interface](https://github.com/enterprise-contract/ec-cli) with a variety of
+Command Line Interface](https://github.com/conforma/cli) with a variety of
 environments.
 
 ## Konflux CI
@@ -57,8 +57,8 @@ Rules specifically related to levels 1, 2 & 3 of SLSA v0.1, plus a set of basic 
 ## Stable (versioned policies)
 
 The main branch of the [conforma/policy](https://github.com/conforma/policy)
-is always tested with the [latest build of ec-cli](https://github.com/enterprise-contract/ec-cli/releases). If
-your environment uses a specific version of ec-cli, such as
+is always tested with the [latest build of ec](https://github.com/conforma/cli/releases). If
+your environment uses a specific version of ec, such as
 [the official Red Hat build](https://catalog.redhat.com/software/containers/rhtas/ec-rhel9/65f1f9dcfc649a18c6075de5),
 then you can use one of these instead of the
 [main branch default](https://github.com/enterprise-contract/config?tab=readme-ov-file#default).
