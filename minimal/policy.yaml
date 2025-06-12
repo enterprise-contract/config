@@ -36,6 +36,7 @@ sources:
     data:
       - github.com/release-engineering/rhtap-ec-policy//data
       - oci::quay.io/konflux-ci/tekton-catalog/data-acceptable-bundles:latest
+      - oci::quay.io/konflux-ci/konflux-vanguard/data-acceptable-bundles:latest
     config:
       include:
         - '@minimal'
